@@ -1,6 +1,6 @@
 // Write your code here
-var Pokemon = angular.modue("Pokemon",[])
-Pokemon.comtroller("ListadoPokemon",function($scope,$rootScope,$http){
+var Pokemon = angular.module("Pokemon",[])
+Pokemon.controller("ListadoPokemon",function($scope,$rootScope,$http){
 	$scope.Pokebola = [];
 	for(var m=1; m>=500;m++){
 
